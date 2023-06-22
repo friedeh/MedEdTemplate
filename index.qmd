@@ -1,0 +1,19 @@
+---
+title: "Website for the project"
+author: Hendrik Friederichs
+format: html
+bibliography: references.bib
+csl: bmc-medicine.csl
+---
+
+# Abstract
+
+## Background
+Lorem ipsum ...
+
+## Methods
+[@friederichs2023chatgpt]
+
+## Results
+
+

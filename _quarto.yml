@@ -1,0 +1,27 @@
+project:
+  title: "Template AG 7"
+  render: [quarto-publishing.qmd]
+  output-dir: output
+
+format: 
+  html:
+    toc: true
+    theme:
+      light: flatly
+      dark: darkly
+  docx:
+    reference-doc: docs/custom-reference-doc.docx
+  pdf: default
+  epub: default
+  revealjs: 
+    output-file: revealjs.html
+  pptx: default
+format-links: [pdf]
+lang: en
+license: CC BY-SA
+keywords: [medical education, research]
+bibliography: references.bib
+csl: bmc-medicine.csl
+citation-location: margin
+execute:
+  keep-md: true
