@@ -1,5 +1,5 @@
 ---
-title: Untitled
+title: "Template for Research in Medical Education"
 format:
   MedEdTemplate-html: default
 author: Hendrik Friederichs
