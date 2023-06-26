@@ -34,7 +34,7 @@ git2r::add(repo, "*")
 git2r::commit(repo, "Initial commit")
 
 # Füge das GitLab-Repository als Remote-Repository hinzu (ersetze 'your-repo-url' mit der URL deines GitLab-Repositories)
-git2r::remote_add(repo, "origin", "https://gitlab.ub.uni-bielefeld.de/medical-education/research/new-osf-test.git")
+git2r::remote_add(repo, "new-osf-test", "https://gitlab.ub.uni-bielefeld.de/medical-education/research/new-osf-test.git")
 
 # Push die Änderungen zu GitLab
 git2r::push(repo, "refs/heads/master", "origin", "refs/heads/master")
